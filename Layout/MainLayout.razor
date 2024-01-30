@@ -1,0 +1,27 @@
+﻿@inherits LayoutComponentBase
+@using DateTimeNow
+
+<header>
+    <div class="header-container">
+        <a class="logo" asp-page="/home">Moment 1.2</a>
+        <div class="date-container"> <!-- Hämtar dagens datum dynamiskt -->
+             <DateTimeNow />
+        </div>
+    </div>
+</header>
+
+<!-- container huvudinnehåll & nav -->
+<div class="container">
+    <NavMenu />
+    <div class="content">
+        <main role="main">
+            @Body
+        </main>
+    </div>
+</div>
+
+<footer>
+    <div class="footer-container">
+        <p>&copy; Av Erika Vestin - Kontakta mig via mejl <a href="erbj1201@student.miun.se">  erbj1201@student.miun.se</a></p> 
+    </div>
+</footer>

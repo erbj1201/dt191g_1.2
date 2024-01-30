@@ -1,0 +1,89 @@
+@page "/convert"
+
+<PageTitle>Konvertering</PageTitle>
+
+<h1>Konvertering</h1>
+
+<!--Input fields for meters -->
+<h2>Konvertera meter till fot</h2>
+<div>
+    <label for="meter">Ange antal meter:</label>
+    <br>
+    <input type="number" id="meter" @bind="meter" @oninput="CheckMeterInput" />
+</div>
+<br>
+<!--Button to convert-->
+ <button class="convertbtn" @onclick="ConvertMeterToFeet">Beräkna</button>
+
+<!--Show message if input avaliable in input meter -->
+@if(feetResult){
+<h3>@feetMessage</h3>
+} 
+
+<!--Input fields for km/h -->
+<h2>Konvertera km/h till miles/hour</h2>
+<div>
+    <label for="km">Ange antal kilometer/h:</label>
+    <br>
+    <input type="number" id="km" @bind="km" @oninput="CheckKmInput" />
+</div>
+<br>
+<!--Button to convert-->
+ <button class="convertbtn" @onclick="ConvertKmHToMilesH">Beräkna</button>
+<!--Show message if input avaliable in input km -->
+@if(milesResult){
+    <h3>@milesMessage</h3>
+}
+@code{
+// Variables for meter, feet, message and result
+private double? meter;
+private double? feet;
+private string? feetMessage;
+private bool feetResult = false;
+// Variables for km, miles, message and result
+double? km;
+double? miles; 
+private string? milesMessage;
+private bool milesResult = false;
+
+//Convert meter to feet 
+private void ConvertMeterToFeet(){
+    //Check if value in input and convert
+    if(meter.HasValue){
+feet= Math.Round(meter.Value * 3.28, 2);
+feetResult = true;
+//Message
+feetMessage = $"{meter} meter är {feet} fot";
+} //If no input
+else {
+    feet = null;
+    feetResult = false;
+}
+}
+
+//Check for change in meter input
+private void CheckMeterInput(ChangeEventArgs e){
+    //CHeck input not empty
+    feetResult = !string.IsNullOrWhiteSpace(e.Value?.ToString());
+        feet = null;
+        feetResult=false;
+}
+//Convert km/h to miles/h
+private void ConvertKmHToMilesH(){
+    //Check if input km has value
+     if(km.HasValue){
+        //Convert and round of to nearest hole number (int)
+miles= Math.Round(km.Value * 0.62);
+milesResult = true;
+//Show message
+milesMessage = $"{km} km/h är {miles} miles/hour";
+}
+}
+//Check for change in input km
+private void CheckKmInput(ChangeEventArgs e){
+    //CHeck input not empty
+    milesResult = !string.IsNullOrWhiteSpace(e.Value?.ToString());
+    miles = null;
+    milesResult=false;
+}
+}

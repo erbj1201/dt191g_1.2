@@ -1,0 +1,80 @@
+[{
+  "_id": {
+    "$oid": "6564a2e28d13b5bd2c26841b"
+  },
+  "courseName": "Webbutveckling I",
+  "courseCode": "DT057G",
+  "progression": "A"
+},
+{
+  "_id": {
+    "$oid": "6564a2e28d13b5bd2c26841c"
+  },
+  "courseName": "Introduktion till programmering i JavaScript",
+  "courseCode": "DT084G",
+  "progression": "A"
+},
+{
+  "_id": {
+    "$oid": "6564a2e28d13b5bd2c26841d"
+  },
+  "courseName": "Webbanvändbarhet",
+  "courseCode": "DT068G",
+  "progression": "B"
+},
+{
+  "_id": {
+    "$oid": "6564a2e28d13b5bd2c26841e"
+  },
+  "courseName": "Grafisk teknik för webb",
+  "courseCode": "DT200G",
+  "progression": "A"
+},
+{
+  "_id": {
+    "$oid": "6564a2e28d13b5bd2c26841f"
+  },
+  "courseName": "Webbutveckling II",
+  "courseCode": "DT093G",
+  "progression": "B"
+},
+{
+  "_id": {
+    "$oid": "6564a2e28d13b5bd2c268420"
+  },
+  "courseName": "Databaser",
+  "courseCode": "DT003G",
+  "progression": "A"
+},
+{
+  "_id": {
+    "$oid": "6564a2e28d13b5bd2c268421"
+  },
+  "courseName": "Webbutveckling III",
+  "courseCode": "DT173G",
+  "progression": "B"
+},
+{
+  "_id": {
+    "$oid": "6564a2e28d13b5bd2c268422"
+  },
+  "courseName": "Webbdesign för CMS",
+  "courseCode": "DT173G",
+  "progression": "B"
+},
+{
+  "_id": {
+    "$oid": "6564a2e28d13b5bd2c268423"
+  },
+  "courseName": "Fullstack-utveckling med ramverk",
+  "courseCode": "DT193G",
+  "progression": "B"
+},
+{
+  "_id": {
+    "$oid": "6564a2e28d13b5bd2c268424"
+  },
+  "courseName": "Projektledning",
+  "courseCode": "IK060G",
+  "progression": "A"
+}]

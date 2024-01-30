@@ -1,0 +1,55 @@
+﻿@page "/json"
+@inject HttpClient Http
+
+<PageTitle>JSON</PageTitle>
+
+<h1>Json-data</h1>
+
+<h2>Några kurser från Webbutvecklingsprogrammet</h2>
+<!-- If courses is null-->
+@if (course == null)
+{
+    <p><em>Laddar...</em></p>
+}
+else
+{ // if courses exists, show courses
+    <table class="course-list">
+        <thead>
+            <tr>
+                <th>Kursnamn</th>
+                <th>Kurskod</th>
+                <th class="progression">Progression</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var course in course)
+            { //Loop and write courses to course-list
+                <tr class="table-row">
+                    <td>@course.courseName</td>
+                    <td>@course.courseCode</td>
+                    <td class="progression">@course.progression</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    //Array for courses
+    private Course[]? course;
+
+    //Http-request with Http Request
+    protected override async Task OnInitializedAsync()
+    {
+        course = await Http.GetFromJsonAsync<Course[]>("json-data/courses.json");
+    }
+
+    //model for courses
+    public class Course
+    {
+        public string? courseName { set; get; }
+        public string? courseCode { set; get; }
+        public string? progression { set; get; }
+
+    }
+}
