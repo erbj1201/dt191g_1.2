@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Skrivbord\\Webbutveckling\\dt191g_webbutveckling_med_.NET\\moment_1\\moment_1.2\\BlazorWebAsemb\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Skrivbord\\Webbutveckling\\dt191g_webbutveckling_med_.NET\\moment_1\\moment_1.2\\BlazorWebAsemb\\obj\\Debug\\net8.0\\compressed\\6o78sylohs.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Skrivbord\\Webbutveckling\\dt191g_webbutveckling_med_.NET\\moment_1\\moment_1.2\\BlazorWebAsemb\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Skrivbord\\Webbutveckling\\dt191g_webbutveckling_med_.NET\\moment_1\\moment_1.2\\BlazorWebAsemb\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Skrivbord\\Webbutveckling\\dt191g_webbutveckling_med_.NET\\moment_1\\moment_1.2\\BlazorWebAsemb\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Skrivbord\\Webbutveckling\\dt191g_webbutveckling_med_.NET\\moment_1\\moment_1.2\\BlazorWebAsemb\\wwwroot\\images\\foralla.jpg",
+      "PackagePath": "staticwebassets\\images\\foralla.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Skrivbord\\Webbutveckling\\dt191g_webbutveckling_med_.NET\\moment_1\\moment_1.2\\BlazorWebAsemb\\wwwroot\\images\\new_year.jpg",
+      "PackagePath": "staticwebassets\\images\\new_year.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Skrivbord\\Webbutveckling\\dt191g_webbutveckling_med_.NET\\moment_1\\moment_1.2\\BlazorWebAsemb\\wwwroot\\images\\rorelsegladje.jpg",
+      "PackagePath": "staticwebassets\\images\\rorelsegladje.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Skrivbord\\Webbutveckling\\dt191g_webbutveckling_med_.NET\\moment_1\\moment_1.2\\BlazorWebAsemb\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Skrivbord\\Webbutveckling\\dt191g_webbutveckling_med_.NET\\moment_1\\moment_1.2\\BlazorWebAsemb\\wwwroot\\json-data\\courses.json",
+      "PackagePath": "staticwebassets\\json-data\\courses.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BlazorWebAsemb.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BlazorWebAsemb.props",
+      "PackagePath": "build\\BlazorWebAsemb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BlazorWebAsemb.props",
+      "PackagePath": "buildMultiTargeting\\BlazorWebAsemb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BlazorWebAsemb.props",
+      "PackagePath": "buildTransitive\\BlazorWebAsemb.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

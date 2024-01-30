@@ -1,0 +1,284 @@
+/* /Layout/MainLayout.razor.rz.scp.css */
+/*Body, header bredd, design*/
+body[b-8w06rm02fp]{
+    width: 100%;
+    max-width: 1900px;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: black;
+    margin: 0;
+  }
+  header[b-8w06rm02fp]{
+    display: flex;
+    width: 100%;
+    max-width: 1900px;
+    margin: auto;
+    justify-self: center;
+    font-family: Arial, Helvetica, sans-serif;
+  } /*Generellt för article*/
+  article[b-8w06rm02fp]{
+    display: flex;
+    text-align: left;
+    font-size: 1.2em;
+    padding: 3em 0;
+    margin: auto;
+    width: 100%;
+  } /*Rubriker måste innehålla Deep för att ändras*/
+  [b-8w06rm02fp] h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.8em;
+  text-align: left;
+  margin: auto;
+  padding: 0.5em 0;
+  } 
+  [b-8w06rm02fp] h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6em;
+    text-align: left;
+    margin: auto;
+    font-weight: 300;
+    padding: 0.5em 0;
+  }
+  [b-8w06rm02fp] h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    margin: auto;
+    font-weight: 200;
+    text-align: left;
+    padding: 0.5em 0;
+  }
+  [b-8w06rm02fp] h4{
+    font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  margin: auto;
+  font-weight: 200;
+  text-align: left;
+  padding: 0.5em 0;
+  }
+  
+  [b-8w06rm02fp] p{
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    max-width: 60em;
+    margin: 0;
+    line-height: 1.5;
+    padding: 0.5em 0;
+  }
+  /*Header*/
+  .header-container[b-8w06rm02fp]{
+    margin: auto;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+    height: 100px;
+    background-color: #e2e3fb;
+  }
+  .date-container[b-8w06rm02fp]{
+    width: fit-content;
+    height: fit-content;
+    background-color: #f1f1f3;
+    margin: 2em 4em;
+    box-shadow: 0 0 5px 5px #c5c6f19a;
+  }
+  
+  .date[b-8w06rm02fp]{
+    padding: 1em 2em;
+    margin: auto;
+    font-size: 0.8em;
+    width: 100%;
+  }
+  [b-8w06rm02fp] .logo{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 1.2em;
+    color: rgb(39, 35, 35);
+    text-decoration: none;
+    margin: auto 3em;
+  }
+  
+  [b-8w06rm02fp] .logo:hover{
+  color: #5257ed;
+  }
+  /*Container för huvudinnehåll och navigering*/
+  .container[b-8w06rm02fp]{
+    width: 100%;
+    max-width: 1900px;  
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    justify-self: center;
+    margin: 0.5em auto;
+  } /*Huvudinnehåll*/
+  .content[b-8w06rm02fp]{
+    width: 100%;
+    margin: 0.5em auto;
+    padding: 1em;
+    background-color: rgb(244, 235, 225);
+  } /*Footer*/
+  footer[b-8w06rm02fp] {
+    display: flex;
+    width: 100%;
+    max-width: 1900px;
+    margin: auto;
+    justify-self: center;
+    text-align: center;
+    background-color: #e2e3fb;
+    color: rgb(39, 35, 35);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.8em;
+  }
+  .footer-container[b-8w06rm02fp]{
+    margin: auto;
+    width: fit-content;
+    max-width: 1900px;
+    padding: 3em;
+  }
+  /*Länkfärg*/
+  a[b-8w06rm02fp]{
+    color: #158de3;
+    text-decoration: none;
+  }
+  /*Main*/
+  main[b-8w06rm02fp]{
+    margin: auto;
+    width: 100%;
+  } /*Sidonav*/
+  nav[b-8w06rm02fp], .sidebar[b-8w06rm02fp] {
+   display: flex;
+   justify-self: left;
+    margin: 0.5em 1em 0.5em 0;
+    padding: 2em;
+    width: 350px;
+    background-color: #f2c0c0;
+    height: 100vh;
+  }
+  ul[b-8w06rm02fp]{
+    list-style-type: none;
+    background-color: #f2c0c0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .navlink[b-8w06rm02fp]{
+    margin: 1em;
+    padding: 0.5em;
+    background-color: white;
+    text-align: left;
+    text-decoration: none;
+  }
+  /* Sidebar links */
+  [b-8w06rm02fp] .navlink{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    display: block;
+    background-color: white;
+    color: #f44747;
+    padding: 1em;
+    margin: 1em;
+    text-decoration: none;
+  }
+  [b-8w06rm02fp] .navlink:hover{
+  background-color: #e2e3fb;
+  }
+  /*Course-list på razor*/
+  [b-8w06rm02fp] .courses li{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    padding: 0.5em 0;
+  }
+  /*Media querie för mobilskärmar*/
+  @media all and (max-width: 600px) {
+    body[b-8w06rm02fp]{
+      max-width: 600px;
+      width: 100%;
+      margin: auto;
+      height: 100vh;
+    }
+    header[b-8w06rm02fp]{
+      display: flex;
+      max-width: 600px;
+      width: 100%;
+      height: 60px;
+      margin: 0;
+    }
+    :deep .logo[b-8w06rm02fp]{
+      margin: 0;
+      padding: 0;
+    }
+    main[b-8w06rm02fp]{
+      width: 100%;
+      margin: auto;
+      height: 100vh;
+    }
+    .header-container[b-8w06rm02fp]{
+      display: flex;
+      max-width: 600px;
+      width: 100%;
+      height: 40px;
+      margin: 0 auto;
+    }
+    footer[b-8w06rm02fp]{
+      display: flex;
+      justify-content: center;
+      max-width: 600px;
+      width: 100%;
+      margin: 0.2em auto;
+      padding: 0;
+    }
+    .footer-container[b-8w06rm02fp]{
+      display: flex;
+      max-width: 600px;
+      width: 100%;
+      margin: auto;
+      padding: 1em;
+      font-size: 0.8em;
+      text-align: center;
+    }
+    .content[b-8w06rm02fp]{
+      align-content: start;
+      max-width: 510px;
+      display: flex;
+      height: 100vh;
+      margin:0 auto;
+      padding-bottom: 3em;
+    }
+    .container[b-8w06rm02fp]{
+      display: flex;
+      justify-content: start;
+      max-width: 590px;
+      width: 100%;
+      height: 100%;
+      margin: 0.2em auto;
+    }
+  nav[b-8w06rm02fp]{
+      width: 100%;
+      max-width: 80px;
+      margin: 0;
+      height: 100vh;
+    }
+    nav ul[b-8w06rm02fp]{
+      width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+   .navlink[b-8w06rm02fp]{
+      font-size: 0.8em;
+      width: 100%;
+      margin: 1em auto;
+    }
+   [b-8w06rm02fp] h1{
+      font-size: 1.4em;
+    }
+    [b-8w06rm02fp] .date-container{
+      display: none;
+  }
+  [b-8w06rm02fp] .courses li{
+    text-transform: none;
+    font-size: 0.8em;
+  }
+  
+  }
